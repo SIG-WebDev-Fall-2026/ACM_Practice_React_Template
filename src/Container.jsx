@@ -3,7 +3,7 @@ import './Container.css'
 
 function Container({children}) {
     return (
-        <div class="Container">
+        <div className="Container">
             {children}
         </div>
     )
