@@ -3,6 +3,21 @@
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 150px;
     gap: 20px;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     padding: 0.5em;
+}
+
+.title {
+    text-align: center;
+    font-size: 3.5rem;
+    font-family: 'Orbitron', 'Audiowide', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #b967ff;
+    text-shadow: 
+        0 0 5px #b967ff,
+        0 0 15px #b967ff,
+        0 0 30px #7b2ff7,
+        0 0 45px #05ffa1;
 }

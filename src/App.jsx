@@ -12,10 +12,12 @@ import Person5 from './Person_5/Component.jsx'
 import Person6 from './Person_6/Component.jsx'
 import Person7 from './Person_7/Component.jsx'
 import Person8 from './Person_8/Component.jsx'
+import Person9 from './Person_9/Component.jsx'
 
 function App() {
   return (
     <>
+      <h1 className='title'>Tell us about yourself</h1>
       <div className='grid-container'>
         <Container>
           <Person1/>
@@ -40,6 +42,9 @@ function App() {
         </Container>
         <Container>
           <Person8/>
+        </Container>
+        <Container>
+          <Person9/>
         </Container>
       </div>
     </>
