@@ -3,7 +3,7 @@ import "./Component.css"
 function Person6(){
     return(
         <>
-        <h2>David Andras</h2>
+        <h2 className="Name">David</h2>
         </>
     )
 }
