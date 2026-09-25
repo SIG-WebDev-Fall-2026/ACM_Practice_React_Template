@@ -17,7 +17,7 @@ function Person1(){
                 <div className = "person1-info"> 
                     <ul>
                         <li> Sophomore in CS + Design</li>
-                        <li> Web Design, UI/UX, Frontend</li>
+                        {/* <li> Web Design, UI/UX, Frontend</li> */}
                     </ul>   
 
                     <div className = "person1-guess-section">
