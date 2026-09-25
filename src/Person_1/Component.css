@@ -1,0 +1,57 @@
+
+.person1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 1em 2em;
+    font-family: monospace;
+
+}
+
+.person1 > p {
+    font-family: monospace;
+    font-size: 1.75rem;
+    color: #e6e6e6;
+    margin: 0;
+    font-weight: 600;
+}
+
+.person1-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    min-width: 300px;
+}
+
+li {
+    color: #e6e6e6;
+    font-size: 0.9rem;
+}
+
+.person1-guess-section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    color: #e6e6e6;
+    margin-top: -1.5em;
+}
+
+.person1-guess-section input {
+    width: 100px;
+    height: 15px;
+    border-radius: 5px;
+    border: none;
+    padding: 0.5em;
+}
+
+.person1-guess-section label {
+    font-size: 0.9rem;
+    color: #e6e6e6;
+}
+
+.person1-guess-response {
+    font-size: 0.9rem;
+    color: #e6e6e6;
+    margin: 0;
+}
