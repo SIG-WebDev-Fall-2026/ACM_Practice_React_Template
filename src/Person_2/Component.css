@@ -1,0 +1,24 @@
+.Person_2 {
+  color: wheat;
+  font-size: 20px;
+  position:relative;
+  top: -20px;
+  font-family: Papyrus;
+  font-style: italic;
+}
+
+h3 {
+    display: inline-block;
+    color: rgb(4, 113, 24);
+    background-color: palevioletred;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+#button {
+    position:relative;
+    top: -30px;
+    background-color: yellow;
+    font-size: larger;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
